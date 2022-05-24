@@ -1,0 +1,214 @@
+
+body{
+  background-color: black;
+}
+
+/*Header Styl*/
+header{
+    background-color: black;
+   
+}
+
+h1{
+    position: relative;
+    left: 50px;
+    top: 40px;
+    color: white;
+    font-family:Neucha, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+h2 {
+  color: white;
+  font-family: Neucha, sans-serif;
+  margin-left: 5px;
+  padding-top: 5px;
+}
+
+.ingredients {
+  color: white;
+  font-family: Neucha, sans-serif;
+  margin-left: 2px;
+  text-decoration-line: underline;
+}
+
+.preperation {
+  text-align: justify;
+  margin-right: 45%;
+}
+
+/*https://getcssscan.com/css-buttons-examples*/
+.Login {
+  position: relative;
+  left: 1430px;
+  bottom: 20px;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.Login:hover {
+  box-shadow: white 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.Login:focus {
+  box-shadow: white 2px 8px 4px -6px;
+}
+
+.menu {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 15px;
+  justify-content: space-evenly;
+
+}
+.underlist >.list {
+  list-style-type: none;
+}
+
+.list {
+  color: white;
+  display: inline;
+  padding: 50px;
+  text-decoration-line: none;
+  font-family:Neucha, sans-serif;
+}
+
+li {
+  color: white;
+  font-family: Neucha, sans-serif;
+}
+
+/*Nav Style*/
+.nav{
+  background-image: url("images/FoodWallpaper.jpg");
+  background-size: auto;
+  opacity: 0.40; 
+  padding: 80px;
+}
+
+hr {
+  border-color: white;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+p {
+  color: white;
+}
+
+.citation {
+  color: white;
+  margin-right: 5%;
+  size: 5rem;
+  text-allign: center;
+}
+
+
+
+.motivation {
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    text-align: justified;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: Neucha, sans-serif;
+    ;
+  }
+
+
+.navP{
+    text-align: center;
+    font-family:Neucha, sans-serif;
+    color: white;
+}
+
+/*Footer Style*/
+footer{
+    background-color: black;
+    color: white;
+    position: relative;
+    font-family:Neucha, sans-serif;
+}
+
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    size: 20px;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+nav {
+  grid-area: nav;
+}
+
+img {
+  border-radius: 100%;
+  margin: 5%;
+  max-width: 200px;
+  max-height: 200px;
+
+}
+
+.images {
+  display: inline;
+
+}
+
+.menu {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
