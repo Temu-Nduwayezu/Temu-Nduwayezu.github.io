@@ -6,7 +6,7 @@ server:
 
 spring:
   datasource:
-    password: paiwand1
+    password: 
     url: jdbc:postgresql://localhost:5432/foodaddicts
     username: postgres
   jpa:
